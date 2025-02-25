@@ -143,7 +143,10 @@ class JobItemDetails extends Component {
         <h1 className="similar-job-heading">Similar Jobs</h1>
         <ul className="unordered-similar-con">
           {updatedSimilarJobs.map(eachSimilarCard => (
-            <SimilarJobCard eachSimilarCard={eachSimilarCard} />
+            <SimilarJobCard
+              eachSimilarCard={eachSimilarCard}
+              key={eachSimilarCard.id}
+            />
           ))}
         </ul>
       </div>

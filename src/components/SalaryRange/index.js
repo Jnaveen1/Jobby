@@ -5,7 +5,7 @@ const SalaryRange = props => {
   const {salaryRangeId, label} = eachSalary
 
   const changeSalary = () => {
-    salaryStatus(salaryRangeId)
+    salaryStatus(uniqueKey)
   }
 
   return (

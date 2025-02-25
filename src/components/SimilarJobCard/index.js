@@ -4,7 +4,7 @@ import {GoLocation} from 'react-icons/go'
 import './index.css'
 
 const SimilarJobCard = props => {
-  const {eachSimilarCard} = props
+  const {eachSimilarCard, key} = props
   const {
     companyLogoUrl,
     employementType,

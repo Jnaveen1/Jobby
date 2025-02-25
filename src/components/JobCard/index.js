@@ -6,11 +6,10 @@ import {Link} from 'react-router-dom'
 import './index.css'
 
 const JobCard = props => {
-  const {eachJob} = props
+  const {eachJob, uniqueKey} = props
   const {
     companyLogoUrl,
     employeType,
-    id,
     jobDescription,
     location,
     packagePerAnnum,
@@ -19,7 +18,7 @@ const JobCard = props => {
   } = eachJob
 
   return (
-    <Link to={`/jobs/${id}`} className="link-item">
+    <Link to={`/jobs/${uniqueKey}`} className="link-item">
       <li className="job-card-container">
         <div className="sub-container1">
           <img

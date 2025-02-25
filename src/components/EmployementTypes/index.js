@@ -6,7 +6,7 @@ const EmployementTypes = props => {
   console.log(label)
 
   const changeTypeStatus = () => {
-    onChangeJobType(employmentTypeId)
+    onChangeJobType(uniqueKey)
   }
 
   return (

@@ -67,7 +67,7 @@ const JobInformation = props => {
       <h1 className="life-at-company">Life at Company</h1>
       <div className="life-at-con">
         <p>{description}</p>
-        <img src={imageUrl} className="lifeAt-img" alt="life" />
+        <img src={imageUrl} className="lifeAt-img" alt="life at company" />
       </div>
     </>
   )

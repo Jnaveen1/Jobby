@@ -53,7 +53,7 @@ class Login extends Component {
     const {username} = this.state
     return (
       <>
-        <label className="label" htmlFor="usernamme">
+        <label className="label" htmlFor="username">
           USERNAME
         </label>
         <br />

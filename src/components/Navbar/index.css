@@ -31,3 +31,6 @@
   color: white;
   margin-left: 20px;
 }
+.list-btn{
+  list-style-type: none;
+}
